@@ -1,0 +1,10 @@
+<h1>  Deputados</h1>
+<div>
+    <ul *ngFor="let dep of deputados ">
+        <li><img [src]="dep.urlFoto"></li>
+        <li>{{dep.nome}}</li>
+        <li>{{dep.siglaPartido}}-{{dep.siglaUf}}</li>
+        <li>{{dep.email}}</li>
+        
+    </ul>
+</div>
